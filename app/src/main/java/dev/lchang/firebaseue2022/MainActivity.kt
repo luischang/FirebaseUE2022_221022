@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
                     Log.w("Firebase","Error al consultar cursos")
                     return@addSnapshotListener
                 }
-
                 for (dc in snapshots!!.documentChanges){
                     when(dc.type){
                         DocumentChange.Type.ADDED, DocumentChange.Type.MODIFIED ->{
