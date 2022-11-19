@@ -22,4 +22,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="valbtnsave">Save</string>
     <string name="valtitleregister">Register</string>
+    <string name="valtitleroom">SQLite</string>
+    <string name="valbtnsaveroom">SAVE</string>
 </resources>
